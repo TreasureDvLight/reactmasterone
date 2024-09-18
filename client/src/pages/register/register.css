@@ -1,0 +1,46 @@
+.register{
+    display: flex;
+    height: calc(100vh - 50px);
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('https://images.pexels.com/photos/24805070/pexels-photo-24805070.jpeg?cs=srgb&dl=pexels-ahmet-cotur-776571149-24805070.jpg&fm=jpg&_gl=1*1hlhkzz*_ga*MTU3MzgzNDU1OS4xNzIxNDIyMDcy*_ga_8JE65Q40S6*MTcyMjc5ODExNi4xMi4xLjE3MjI3OTgyODcuMC4wLjA.');
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+.registerTitle{
+    font-size: 50px;
+}
+.registerForm{
+    margin-top: 20px;
+    display: flex; 
+    flex-direction: column;
+}
+.registerForm > label{
+    margin: 10px 0  ;
+}
+.registerInput{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.registerLoginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+}
